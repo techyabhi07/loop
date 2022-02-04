@@ -14,16 +14,21 @@ int main(){
     int startNum = 0;//0
     
 
-    while(1){
+    // while(1){
 
-        printf("%d ", startNum);
-        startNum += 1;
+    //     printf("%d ", startNum);
+    //     startNum += 1;
 
-        if (startNum == number){
-            break;
-        }
+    //     if (startNum == number){
+    //         break;
+    //     }
 
+    // }
 
+    for (int i=0; i<number; i++){
+
+         printf("%d ", startNum);
+         startNum++;
 
     }
 
